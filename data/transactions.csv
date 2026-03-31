@@ -1,0 +1,9 @@
+transaction_id,customer_id,amount,type,status,reason,date
+T101,1001,5000,purchase,completed,,2026-03-10
+T102,1002,20000,transfer,blocked,daily_limit_exceeded,2026-03-11
+T103,1003,85000,transfer,flagged,unusual_large_amount,2026-03-12
+T104,1004,1500,purchase,completed,,2026-03-13
+T105,1001,500,purchase,completed,,2026-03-14
+T106,1002,800,purchase,duplicate_charge,duplicate_transaction,2026-03-14
+T107,1005,3000,purchase,completed,,2026-03-14
+T108,1001,12000,transfer,completed,,2026-03-15

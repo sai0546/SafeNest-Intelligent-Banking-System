@@ -1,0 +1,4 @@
+loan_id,customer_id,amount,status,interest_rate,tenure_months
+L001,1002,50000,active,11.5,36
+L002,1004,30000,active,12.0,24
+L003,1004,20000,active,13.5,18

@@ -1,0 +1,6 @@
+rule_id,rule_name,threshold,action,description
+R001,daily_transfer_limit,15000,block,Transactions above daily limit are blocked automatically
+R002,fraud_detection_threshold,50000,flag,Transactions above this amount trigger fraud review
+R003,loan_income_ratio,0.4,reject,Monthly EMI should not exceed 40% of monthly income
+R004,min_credit_score,650,reject,Minimum credit score required for loan eligibility
+R005,max_active_loans,2,reject,Customer cannot hold more than 2 active loans simultaneously

@@ -1,0 +1,11 @@
+issue,resolution
+duplicate transaction on my account,We have identified the duplicate charge and initiated a full refund. It will reflect in 2-3 business days.
+my card was charged twice,The duplicate charge has been reversed. Please allow 2-3 working days for the refund to appear.
+transaction blocked without reason,Your transaction was blocked because it exceeded your daily transfer limit of Rs.15000. You can retry tomorrow or request a limit increase.
+why was my payment declined,Your payment was declined because your daily transfer limit was exceeded. The limit resets at midnight.
+account access blocked,Your account was temporarily locked due to multiple failed login attempts. Please reset your password to regain access.
+loan EMI deducted twice,A duplicate EMI deduction was detected. The extra amount will be credited back within 3 business days.
+unable to make upi transfer,UPI transfers above your set limit are blocked automatically. Update your UPI limit in app settings.
+fraudulent transaction on my account,We have flagged this transaction and initiated an investigation. Your card has been temporarily blocked for security.
+how to increase transfer limit,You can increase your daily transfer limit by visiting the app settings under Account Limits or visiting the nearest branch.
+card not working at ATM,Your card may be blocked due to incorrect PIN attempts. Please reset your card PIN through the app or call our helpline.

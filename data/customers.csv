@@ -1,0 +1,6 @@
+customer_id,name,username,password,account_number,branch,income,credit_score,existing_loans
+1001,Rahul Sharma,rahul,rahul123,47203819065,Chennai - Anna Nagar,45000,720,0
+1002,Anita Patel,anita,anita123,38291047623,Hyderabad - Banjara Hills,25000,580,1
+1003,Vikram Singh,vikram,vikram123,51839204716,Bengaluru - Koramangala,72000,810,0
+1004,Priya Menon,priya,priya123,60472918305,Kochi - MG Road,31000,640,2
+1005,Arjun Das,arjun,arjun123,29384756102,Chennai - T Nagar,18000,490,1
