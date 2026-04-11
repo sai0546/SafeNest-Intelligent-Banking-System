@@ -833,20 +833,22 @@ def _detect_other_customer(query: str, own_id: int):
         words_orig  = re.findall(r"[A-Za-z]+", query)
         words_lower = re.findall(r"[a-z]+", q_lower)
 
-        # Pass 1 — capitalised word not in own name
+        # Pass 1 — capitalised word that matches another registered customer
         for w in words_orig:
             if (w[0].isupper() and len(w) >= 3
                     and w.lower() not in STOP
-                    and w.lower() not in own_tokens):
+                    and w.lower() not in own_tokens
+                    and w.lower() in other_tokens):
                 return "BLOCKED"
 
-        # Pass 2 — lowercase word after preposition not own name
+        # Pass 2 — lowercase word after preposition that matches another customer
         for i, w in enumerate(words_lower):
             if w in NAME_PREP and i + 1 < len(words_lower):
                 nxt = words_lower[i + 1]
                 if (len(nxt) >= 3
                         and nxt not in STOP
-                        and nxt not in own_tokens):
+                        and nxt not in own_tokens
+                        and nxt in other_tokens):
                     return "BLOCKED"
 
         # Pass 3 — any word matching another registered customer
